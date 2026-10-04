@@ -13,3 +13,15 @@ body {
     color-scheme: dark;
   }
 }
+
+.title {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 4em;
+}
+
+.sub-text {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1em;
+}
