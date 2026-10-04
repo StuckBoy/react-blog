@@ -1,4 +1,5 @@
 import Profile from "~/components/profile";
+import AccountTree from "~/components/accountTree";
 
 export function Welcome() {
   return (
@@ -10,6 +11,7 @@ export function Welcome() {
           <text className="sub-text">(It ain't much, but it's mine)</text>
         </header>
         <Profile/>
+        <AccountTree/>
       </div>
     </main>
   );

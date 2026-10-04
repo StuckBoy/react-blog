@@ -1,6 +1,7 @@
 export default function Profile(){
   return (
     <div>
+      <h1 className="header">About Me</h1>
       <div className="flex justify-center relative">
         <img className="max-w-75" src="assets/images/headshot.jpg" alt="Picture of Me"/>
       </div>
