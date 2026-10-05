@@ -1,3 +1,5 @@
+import {Link} from "react-router";
+
 export default function AccountTree(){
   return (
     <div>
@@ -9,16 +11,16 @@ export default function AccountTree(){
         </p>
         <div className="p-2">
           <ul>
-            <li><a href="https://github.com/StuckBoy">GitHub</a></li>
-            <li><a href="https://gitlab.com/StuckBoy">GitLab</a></li>
-            <li><a href="https://letterboxd.com/StuckBoy/">Letterboxd</a></li>
-            <li><a href="https://backloggd.com/u/StuckBoy/">Backloggd</a></li>
-            <li><a href="https://www.twitch.tv/stuckboy">Twitch</a></li>
-            <li><a href="https://app.thestorygraph.com/profile/stuckboy">StoryGraph</a></li>
-            <li><a href="https://bsky.app/profile/stuckboy.bsky.social">Bluesky</a></li>
-            <li><a href="https://retroachievements.org/user/StuckBoy">RetroAchievements</a></li>
-            <li><a href="https://steamcommunity.com/id/stuckboy_/">Steam</a></li>
-            <li><a href="https://www.youtube.com/@stuckboy">YouTube</a></li>
+            <li><Link target="_blank" to={"https://github.com/StuckBoy"}>GitHub</Link></li>
+            <li><Link target="_blank" to={"https://gitlab.com/StuckBoy"}>GitLab</Link></li>
+            <li><Link target="_blank" to={"https://letterboxd.com/StuckBoy/"}>Letterboxd</Link></li>
+            <li><Link target="_blank" to={"https://backloggd.com/u/StuckBoy/"}>Backloggd</Link></li>
+            <li><Link target="_blank" to={"https://www.twitch.tv/stuckboy"}>Twitch</Link></li>
+            <li><Link target="_blank" to={"https://app.thestorygraph.com/profile/stuckboy"}>StoryGraph</Link></li>
+            <li><Link target="_blank" to={"https://bsky.app/profile/stuckboy.bsky.social"}>Bluesky</Link></li>
+            <li><Link target="_blank" to={"https://retroachievements.org/user/StuckBoy"}>RetroAchievements</Link></li>
+            <li><Link target="_blank" to={"https://steamcommunity.com/id/stuckboy_/"}>Steam</Link></li>
+            <li><Link target="_blank" to={"https://www.youtube.com/@stuckboy"}>YouTube</Link></li>
           </ul>
         </div>
       </div>
