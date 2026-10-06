@@ -18,6 +18,12 @@ a:link {
   @apply underline;
 }
 
+text {
+  margin: 0 auto;
+  padding: 0.5em;
+  max-width: 30em;
+}
+
 .title {
   text-align: center;
   margin: 0 auto;
@@ -32,14 +38,12 @@ a:link {
 }
 
 .profile-text {
-  text-align: justify;
   margin: 0 auto;
   padding: 0.5em;
   max-width: 30em;
 }
 
-.generic-text {
-  text-align: justify;
+p {
   margin: 0 auto;
   padding: 0.5em;
   max-width: 30em;

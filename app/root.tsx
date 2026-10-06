@@ -1,27 +1,22 @@
 import {
-  isRouteErrorResponse,
+  isRouteErrorResponse, Link,
   Links,
   Meta,
-  Outlet,
+  Route as ReactRoute,
+  Routes,
   Scripts,
   ScrollRestoration,
 } from "react-router";
 
 import type { Route } from "./+types/root";
 import "./app.css";
-
-export const links: Route.LinksFunction = () => [
-  { rel: "preconnect", href: "https://fonts.googleapis.com" },
-  {
-    rel: "preconnect",
-    href: "https://fonts.gstatic.com",
-    crossOrigin: "anonymous",
-  },
-  {
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
-  },
-];
+import Home from "~/routes/home";
+import Television from "~/routes/television";
+import Reading from "~/routes/reading";
+import Programming from "~/routes/programming";
+import Movies from "~/routes/movies";
+import Gardening from "~/routes/gardening";
+import Gaming from "~/routes/gaming";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -42,7 +37,28 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <div>
+      <nav>
+        <Link to="/"></Link>
+        <Link to="/gaming"></Link>
+        <Link to="/gardening"></Link>
+        <Link to="/movies"></Link>
+        <Link to="/programming"></Link>
+        <Link to="/reading"></Link>
+        <Link to="/television"></Link>
+      </nav>
+      <Routes>
+        <ReactRoute path={"/"} element={<Home />} />
+        <ReactRoute path={"/gaming"} element={<Gaming />} />
+        <ReactRoute path={"/gardening"} element={<Gardening />} />
+        <ReactRoute path={"/movies"} element={<Movies />} />
+        <ReactRoute path={"/programming"} element={<Programming />} />
+        <ReactRoute path={"/reading"} element={<Reading />} />
+        <ReactRoute path={"/television"} element={<Television />} />
+      </Routes>
+    </div>
+  );
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

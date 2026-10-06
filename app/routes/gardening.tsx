@@ -1,4 +1,4 @@
-export function Gardening() {
+export default function Gardening() {
   return (
     <main className="gardening">
       <header className="flex-1 flex flex-col items-center gap-16 pb-4">

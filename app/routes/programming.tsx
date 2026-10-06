@@ -1,4 +1,4 @@
-export function Programming() {
+export default function Programming() {
   return (
     <main className="programming">
       <header className="flex-1 flex flex-col items-center gap-16 pb-4">
