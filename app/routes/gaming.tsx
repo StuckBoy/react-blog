@@ -11,6 +11,19 @@ export default function Gaming() {
           they were made, why they acted a certain way, and the challenges that
           went into making them.
         </p>
+        <p>
+          I cut my video game teeth on many 2D platformers, which over time
+          became a staple genre for me. Games like Metroid: Zero Mission,
+          Super Mario World (on the GBA cart, not the SNES), and later on the
+          Castlevania series. Naturally, this inclination for platformers
+          extended quite easily into the world of 3D with games like Super
+          Mario 64, Pseudoregalia and A Hat in Time
+        </p>
+        <p>
+          If you're interested in seeing just how broad my gaming landscape has
+          become over the decades, check out my profile on
+          <a href={"https://backloggd.com/u/StuckBoy"} target={"_blank"}>Backloggd!</a>
+        </p>
       </div>
     </main>
   );
