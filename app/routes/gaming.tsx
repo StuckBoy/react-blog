@@ -25,6 +25,7 @@ export default function Gaming() {
           <a href={"https://backloggd.com/u/StuckBoy"} target={"_blank"}>Backloggd!</a>
         </p>
       </div>
+      <footer/>
     </main>
   );
 }

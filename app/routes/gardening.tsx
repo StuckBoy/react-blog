@@ -24,6 +24,7 @@ export default function Gardening() {
           pepper taste to loads of dishes!
         </p>
       </div>
+      <footer/>
     </main>
   );
 }

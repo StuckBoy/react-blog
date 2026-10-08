@@ -35,6 +35,7 @@ export default function Television() {
           logged and reviewed. If you're interested, you can check out my <a href={"https://letterboxd.com/StuckBoy/"} target={"_blank"}>profile here!</a>
         </p>
       </div>
+      <footer/>
     </main>
   );
 }

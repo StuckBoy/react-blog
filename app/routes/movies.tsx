@@ -38,6 +38,7 @@ export default function Movies() {
           they deserve as much inspection as movies.
         </p>
       </div>
+      <footer/>
     </main>
   );
 }

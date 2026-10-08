@@ -11,6 +11,7 @@ export default function Home() {
         <Profile/>
         <AccountTree/>
       </div>
+      <footer/>
     </main>
   );
 }
