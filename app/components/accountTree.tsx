@@ -1,5 +1,3 @@
-import {Link} from "react-router";
-
 export default function AccountTree(){
   return (
     <div>
@@ -11,16 +9,16 @@ export default function AccountTree(){
         </p>
         <div className="p-2">
           <ul>
-            <li><Link target="_blank" to={"https://github.com/StuckBoy"}>GitHub</Link></li>
-            <li><Link target="_blank" to={"https://gitlab.com/StuckBoy"}>GitLab</Link></li>
-            <li><Link target="_blank" to={"https://letterboxd.com/StuckBoy/"}>Letterboxd</Link></li>
-            <li><Link target="_blank" to={"https://backloggd.com/u/StuckBoy/"}>Backloggd</Link></li>
-            <li><Link target="_blank" to={"https://www.twitch.tv/stuckboy"}>Twitch</Link></li>
-            <li><Link target="_blank" to={"https://app.thestorygraph.com/profile/stuckboy"}>StoryGraph</Link></li>
-            <li><Link target="_blank" to={"https://bsky.app/profile/stuckboy.bsky.social"}>Bluesky</Link></li>
-            <li><Link target="_blank" to={"https://retroachievements.org/user/StuckBoy"}>RetroAchievements</Link></li>
-            <li><Link target="_blank" to={"https://steamcommunity.com/id/stuckboy_/"}>Steam</Link></li>
-            <li><Link target="_blank" to={"https://www.youtube.com/@stuckboy"}>YouTube</Link></li>
+            <li><a href={"https://github.com/StuckBoy"} target="_blank">GitHub</a></li>
+            <li><a href={"https://gitlab.com/StuckBoy"} target="_blank">GitLab</a></li>
+            <li><a href={"https://letterboxd.com/StuckBoy/"} target="_blank">Letterboxd</a></li>
+            <li><a href={"https://backloggd.com/u/StuckBoy/"} target="_blank">Backloggd</a></li>
+            <li><a href={"https://www.twitch.tv/stuckboy"} target="_blank">Twitch</a></li>
+            <li><a href={"https://app.thestorygraph.com/profile/stuckboy"} target="_blank">StoryGraph</a></li>
+            <li><a href={"https://bsky.app/profile/stuckboy.bsky.social"} target="_blank">Bluesky</a></li>
+            <li><a href={"https://retroachievements.org/user/StuckBoy"} target="_blank">RetroAchievements</a></li>
+            <li><a href={"https://steamcommunity.com/id/stuckboy_/"} target="_blank">Steam</a></li>
+            <li><a href={"https://www.youtube.com/@stuckboy"} target="_blank">YouTube</a></li>
           </ul>
         </div>
       </div>

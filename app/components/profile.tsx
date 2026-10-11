@@ -1,3 +1,5 @@
+import {Link} from "react-router";
+
 export default function Profile(){
   return (
     <div>
@@ -23,6 +25,16 @@ export default function Profile(){
           For more info on my programming experience or hobbies, check out the
           links below!
         </p>
+      </div>
+      <div className="p-2">
+        <ul>
+          <li><Link to={"/gaming"} target="_blank">Gaming</Link></li>
+          <li><Link to={"/gardening"} target="_blank">Gardening</Link></li>
+          <li><Link to={"/movies"} target="_blank">Movies</Link></li>
+          <li><Link to={"/programming"} target="_blank">Programming</Link></li>
+          <li><Link to={"/reading"} target="_blank">Reading</Link></li>
+          <li><Link to={"/television"} target="_blank">Television</Link></li>
+        </ul>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 export default function Programming() {
   return (
     <main className="programming">
-      <header className="flex-1 flex flex-col items-center gap-16 pb-4">
+      <header className="flex-1 flex flex-col items-center gap-5 pb-4">
         <text className={"title"}>Programming</text>
       </header>
       <div>
@@ -39,7 +39,7 @@ export default function Programming() {
           the meantime, here are a few of the projects that I've been working
           away at:
         </p>
-        <h2>React UI (This Project!)</h2>
+        <h2><a href={"https://github.com/StuckBoy/react-blog"} target={"_blank"}>React UI (This Project!)</a></h2>
         <p>
           During my time at BluJay Solutions, we utilized a UI framework called
           Vaadin. It provided an easy way for Java developers to create HTML,
@@ -59,7 +59,7 @@ export default function Programming() {
           enjoying the process of learning what I don't know and slowly
           rectifying that.
         </p>
-        <h2>REST API Server</h2>
+        <h2><a href={"https://gitlab.com/StuckBoy/alexandria"} target={"_blank"}>REST API Server</a></h2>
         <p>
           My previous position utilized a lot of REST endpoint design and
           implementation, as skill I hope to continue improving with this
@@ -80,7 +80,7 @@ export default function Programming() {
           Call it personal musings, but it seems like the commercialization of
           the internet may be the biggest failure of them all.
         </p>
-        <h2>Godot Game Project</h2>
+        <h2><a href={"https://gitlab.com/StuckBoy/conundrum-and-capers"} target={"_blank"}>Godot Game Project</a></h2>
         <p>
           This project lies outside the realm of any professional development
           that I've done. I have heard many things about Godot as a game engine,
@@ -96,6 +96,14 @@ export default function Programming() {
           of systems rather than end-to-end concepts. As such, I tend to look
           for those connections first, in order to find "stable ground" as it
           were amid an ocean of unknowns.
+        </p>
+      </div>
+      <div>
+        <h2>Repositories</h2>
+        <p>
+          I host my code
+          between <a href={"https://github.com/StuckBoy"} target={"_blank"}>GitHub</a> and <a href={"https://gitlab.com/StuckBoy/"} target={"_blank"}>GitLab</a>.
+          Feel free to check out either profile more in depth using their links!
         </p>
       </div>
       <footer/>

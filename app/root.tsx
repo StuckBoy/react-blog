@@ -17,6 +17,7 @@ import Programming from "~/routes/programming";
 import Movies from "~/routes/movies";
 import Gardening from "~/routes/gardening";
 import Gaming from "~/routes/gaming";
+import Header from "~/components/header";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -40,15 +41,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
   return (
     <div>
-      <nav>
-        <Link to="/"></Link>
-        <Link to="/gaming"></Link>
-        <Link to="/gardening"></Link>
-        <Link to="/movies"></Link>
-        <Link to="/programming"></Link>
-        <Link to="/reading"></Link>
-        <Link to="/television"></Link>
-      </nav>
+      <Header/>
       <Routes>
         <ReactRoute path={"/"} element={<Home />} />
         <ReactRoute path={"/gaming"} element={<Gaming />} />
@@ -79,7 +72,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   }
 
   return (
-    <main className="pt-16 p-4 container mx-auto">
+    <main className="pt-5 p-4 container mx-auto">
       <h1>{message}</h1>
       <p>{details}</p>
       {stack && (
