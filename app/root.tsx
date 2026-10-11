@@ -1,5 +1,5 @@
 import {
-  isRouteErrorResponse, Link,
+  isRouteErrorResponse,
   Links,
   Meta,
   Route as ReactRoute,
