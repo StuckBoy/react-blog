@@ -21,8 +21,7 @@ export default function Gaming() {
         </p>
         <p>
           If you're interested in seeing just how broad my gaming landscape has
-          become over the decades, check out my profile on
-          <a href={"https://backloggd.com/u/StuckBoy"} target={"_blank"}>Backloggd!</a>
+          become over the decades, check out my profile on <a href={"https://backloggd.com/u/StuckBoy"} target={"_blank"}>Backloggd!</a>
         </p>
       </div>
       <footer/>
