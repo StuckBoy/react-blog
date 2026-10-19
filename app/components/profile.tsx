@@ -28,12 +28,13 @@ export default function Profile(){
       </div>
       <div className="p-2">
         <ul>
-          <li><Link to={"/gaming"} target="_blank">Gaming</Link></li>
-          <li><Link to={"/gardening"} target="_blank">Gardening</Link></li>
-          <li><Link to={"/movies"} target="_blank">Movies</Link></li>
-          <li><Link to={"/programming"} target="_blank">Programming</Link></li>
-          <li><Link to={"/reading"} target="_blank">Reading</Link></li>
-          <li><Link to={"/television"} target="_blank">Television</Link></li>
+          <li><Link to={"/blog"}>Blog</Link></li>
+          <li><Link to={"/gaming"}>Gaming</Link></li>
+          <li><Link to={"/gardening"}>Gardening</Link></li>
+          <li><Link to={"/movies"}>Movies</Link></li>
+          <li><Link to={"/programming"}>Programming</Link></li>
+          <li><Link to={"/reading"}>Reading</Link></li>
+          <li><Link to={"/television"}>Television</Link></li>
         </ul>
       </div>
     </div>

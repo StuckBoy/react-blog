@@ -18,6 +18,7 @@ import Movies from "~/routes/movies";
 import Gardening from "~/routes/gardening";
 import Gaming from "~/routes/gaming";
 import Header from "~/components/header";
+import Blog from "~/routes/blog";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -44,6 +45,7 @@ export default function App() {
       <Header/>
       <Routes>
         <ReactRoute path={"/"} element={<Home />} />
+        <ReactRoute path={"/blog"} element={<Blog />} />
         <ReactRoute path={"/gaming"} element={<Gaming />} />
         <ReactRoute path={"/gardening"} element={<Gardening />} />
         <ReactRoute path={"/movies"} element={<Movies />} />

@@ -5,6 +5,7 @@ export default function Header() {
     <header className="p-2">
       <nav className={"flex justify-center"}>
         <Link className={"p-1"} to="/">Home</Link>
+        <Link className={"p-1"} to="/blog">Blog</Link>
         <Link className={"p-1"} to="/gaming">Gaming</Link>
         <Link className={"p-1"} to="/gardening">Gardening</Link>
         <Link className={"p-1"} to="/movies">Movies</Link>
