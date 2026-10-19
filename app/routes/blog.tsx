@@ -1,3 +1,5 @@
+import Post from "~/components/post";
+
 export default function Blog() {
   return (
     <div>
@@ -32,6 +34,8 @@ export default function Blog() {
           humanity shines through with each and every post.
         </p>
       </div>
+      <h1>2026</h1>
+      <Post/>
     </div>
   );
 }
