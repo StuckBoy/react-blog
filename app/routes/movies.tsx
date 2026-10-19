@@ -33,7 +33,7 @@ export default function Movies() {
         <p>
           If you're interested in reading my takes on various movies, or just
           want to see how many I've seen in total, feel free to check out my
-          account on Letterboxd <a href={"https://letterboxd.com/StuckBoy/"} target={"_blank"}>here!</a> There's
+          account on Letterboxd <a href={"https://boxd.it/5MkpR"} target={"_blank"}>here!</a> There's
           a few television shows mixed in as well, but to be honest
           they deserve as much inspection as movies.
         </p>
