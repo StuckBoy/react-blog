@@ -36,6 +36,7 @@ export default function Blog() {
       </div>
       <h1>2026</h1>
       <Post/>
+      <footer/>
     </div>
   );
 }
